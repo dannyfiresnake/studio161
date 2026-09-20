@@ -1,0 +1,29 @@
+{
+  "$schema": "https://raw.githubusercontent.com/nicedoc/json-schemas/main/tauri/tauri.conf.json",
+  "productName": "Studio161",
+  "identifier": "com.studio161.web",
+  "version": "0.1.0",
+  "build": {
+    "frontendDist": "http://localhost:3161"
+  },
+  "app": {
+    "withGlobalTauri": false,
+    "windows": []
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
+    "resources": [
+      "static/*",
+      "static/icons/*",
+      "static/assets/*"
+    ]
+  }
+}

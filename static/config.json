@@ -1,0 +1,155 @@
+{
+  "fx": [
+    {
+      "bus": 5,
+      "color": "#6090f0",
+      "icon": "fx.svg",
+      "id": "fx1",
+      "name": "1"
+    },
+    {
+      "bus": 6,
+      "color": "#80b0f0",
+      "icon": "fx.svg",
+      "id": "fx2",
+      "name": "2"
+    },
+    {
+      "bus": 7,
+      "color": "#a0d0f0",
+      "icon": "fx.svg",
+      "id": "fx3",
+      "name": "3"
+    },
+    {
+      "bus": 8,
+      "color": "#c0f0f0",
+      "icon": "fx.svg",
+      "id": "fx4",
+      "name": "4"
+    }
+  ],
+  "inputs": [
+    {
+      "channel": 4,
+      "color": "#ffffff",
+      "icon": "cable.svg",
+      "iconScale": 0.8,
+      "id": "cablered",
+      "name": "White wireless"
+    },
+    {
+      "channel": 3,
+      "color": "#ffffff",
+      "icon": "cable.svg",
+      "iconScale": 0.9,
+      "id": "cablewhite",
+      "name": "Green wireless"
+    },
+    {
+      "channel": 6,
+      "color": "#de3163",
+      "icon": "drums.svg",
+      "id": "drums",
+      "name": "Drums"
+    },
+    {
+      "channel": 9,
+      "color": "#de3163",
+      "icon": "tablet.svg",
+      "id": "drumsdac",
+      "name": "iPad (drums)"
+    },
+    {
+      "channel": 14,
+      "color": "#00fdff",
+      "icon": "piano.svg",
+      "id": "haken",
+      "name": "Haken"
+    },
+    {
+      "channel": 7,
+      "color": "#00CED1",
+      "icon": "piano.svg",
+      "id": "piano",
+      "name": "Piano"
+    },
+    {
+      "channel": 10,
+      "color": "#00CED1",
+      "icon": "tablet.svg",
+      "id": "pianodac",
+      "name": "iPad (piano)"
+    },
+    {
+      "channel": 8,
+      "color": "#cc99ff",
+      "icon": "microphone.svg",
+      "iconScale": 0.7,
+      "id": "mic",
+      "name": "Microphone"
+    },
+    {
+      "channel": 1,
+      "color": "#ffbf00",
+      "icon": "laptop.svg",
+      "id": "mac",
+      "name": "Mac"
+    },
+    {
+      "channel": 11,
+      "color": "#ff9f00",
+      "icon": "pc.svg",
+      "iconScale": 0.9,
+      "id": "pc",
+      "name": "PC (Main)"
+    },
+    {
+      "channel": 12,
+      "color": "#ff7f00",
+      "icon": "ableton.svg",
+      "iconScale": 1.2,
+      "id": "pcmidi",
+      "name": "PC (DAW)"
+    },
+    {
+      "channel": 13,
+      "color": "#dd00d0",
+      "icon": "ableton.svg",
+      "iconScale": 1.2,
+      "id": "push",
+      "name": "Push 3"
+    }
+  ],
+  "outputs": [
+    {
+      "color": "#f0f0f0",
+      "icon": "speaker.svg",
+      "id": "8c-1",
+      "main": 1,
+      "name": "🔈 Couch"
+    },
+    {
+      "color": "#ffffff",
+      "icon": "speaker.svg",
+      "id": "8c-2",
+      "main": 2,
+      "name": "🔈 Music"
+    },
+    {
+      "bus": 1,
+      "color": "#ffffff",
+      "icon": "drums.svg",
+      "iconScale": 1.1,
+      "id": "hpd",
+      "name": "🎧 Drums"
+    },
+    {
+      "bus": 2,
+      "color": "#ffffff",
+      "icon": "piano.svg",
+      "id": "Hpp",
+      "name": "🎧 Piano"
+    }
+  ]
+}

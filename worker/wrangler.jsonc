@@ -1,0 +1,14 @@
+{
+  "name": "studio161-settings",
+  "main": "src/index.js",
+  "compatibility_date": "2026-09-01",
+  "observability": {
+    "enabled": true
+  },
+  "kv_namespaces": [
+    {
+      "binding": "SETTINGS",
+      "id": "f99ce772b8ed49b1b48960a872fb1837"
+    }
+  ]
+}

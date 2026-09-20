@@ -1,0 +1,32 @@
+[package]
+name = "studio161web"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "studio161web_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[dependencies]
+libwing = { path = "../libwing" }
+axum = { version = "0.8", features = ["ws"] }
+tokio = { version = "1", features = ["full"] }
+tower-http = { version = "0.6", features = ["fs", "set-header"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tauri = { version = "2", features = [] }
+local-ip-address = "0.6"
+include_dir = "0.7"
+
+# tray icons are desktop-only
+[target.'cfg(not(any(target_os = "android", target_os = "ios")))'.dependencies]
+tauri = { version = "2", features = ["tray-icon"] }
+
+# Reaching the WebKitGTK webview directly to kill its native context menu;
+# the DOM-level handler in ui/main.js does not suppress it. Version tracks
+# whatever wry already pulls in, so this adds no new build.
+[target.'cfg(target_os = "linux")'.dependencies]
+webkit2gtk = "2.0.2"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }

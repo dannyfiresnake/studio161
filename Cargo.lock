@@ -1906,6 +1906,7 @@ dependencies = [
 [[package]]
 name = "libwing"
 version = "1.0.5"
+source = "git+https://github.com/dannyfiresnake/libwing?branch=main#74c2ff649aabcc62a788fcf034c41d7d82e40b3c"
 dependencies = [
  "jzon",
  "lazy_static",

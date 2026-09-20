@@ -8,7 +8,7 @@ name = "studio161web_lib"
 crate-type = ["staticlib", "cdylib", "rlib"]
 
 [dependencies]
-libwing = { path = "../libwing" }
+libwing = { git = "https://github.com/dannyfiresnake/libwing", branch = "main" }
 axum = { version = "0.8", features = ["ws"] }
 tokio = { version = "1", features = ["full"] }
 tower-http = { version = "0.6", features = ["fs", "set-header"] }
@@ -30,3 +30,9 @@ webkit2gtk = "2.0.2"
 
 [build-dependencies]
 tauri-build = { version = "2", features = [] }
+
+# Developing libwing alongside this app? Uncomment to build against the
+# sibling checkout instead of the pushed commit. Leave it commented in what
+# you push: a clone without ../libwing next to it cannot resolve the path.
+# [patch."https://github.com/dannyfiresnake/libwing"]
+# libwing = { path = "../libwing" }

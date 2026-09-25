@@ -1,4 +1,4 @@
-// Settings sync endpoint for studio161web.
+// Settings sync endpoint for studio161.
 //
 // The cloud stores an undo stack: the last MAX_STATES saved configs plus an
 // `active` pointer. Saving appends a state (dropping any redo tail); undo and

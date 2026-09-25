@@ -1,10 +1,10 @@
 [package]
-name = "studio161web"
+name = "studio161"
 version = "0.1.0"
 edition = "2021"
 
 [lib]
-name = "studio161web_lib"
+name = "studio161_lib"
 crate-type = ["staticlib", "cdylib", "rlib"]
 
 [dependencies]

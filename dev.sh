@@ -1,5 +1,5 @@
 #!/bin/bash
-# Dev helper for studio161web. Run ./dev.sh help for usage.
+# Dev helper for studio161. Run ./dev.sh help for usage.
 set -euo pipefail
 
 REPO="$(cd "$(dirname "$0")" && pwd)"
